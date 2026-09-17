@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aks Prasad | Video Editing & Motion Graphics - Gamer X Magician</title>
+    <meta name="description" content="Professional video editing, motion graphics, and visual content. Gamer X Magician - Transform your ideas into stunning visual experiences.">
+    <meta name="keywords" content="video editing, motion graphics, youtube editing, reels, shorts, promotional videos">
+    <meta name="author" content="Aks Prasad">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Aks Prasad | Video Editing & Motion Graphics">
+    <meta property="og:description" content="Professional video editing and motion graphics services. Turning ideas into visual experiences.">
+    <meta property="og:type" content="website">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="navbar-container">
+            <div class="navbar-logo">
+                <span class="logo-text">Aks Prasad</span>
+                <span class="logo-subtitle">Gamer X Magician</span>
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#showreel" class="nav-link">Showreel</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#portfolio" class="nav-link">Portfolio</a>
+                <a href="#process" class="nav-link">Process</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-background">
+            <div class="animated-grid"></div>
+            <div class="hero-glow"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="line">TURNING IDEAS INTO</span>
+                    <span class="line">VISUAL EXPERIENCES.</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Video editing, motion graphics and visual content designed to make your brand impossible to ignore.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#portfolio" class="btn btn-primary">View My Work</a>
+                    <a href="https://wa.me/919372573656" class="btn btn-secondary" target="_blank">Hire Me</a>
+                </div>
+            </div>
+            <div class="hero-animation">
+                <img src="akki.png" alt="Aks Prasad - Gamer X Magician" style="width: 100%; height: 100%; object-fit: contain; border-radius: 16px; box-shadow: 0 20px 60px rgba(0, 212, 255, 0.3); background: linear-gradient(135deg, rgba(0, 212, 255, 0.1), rgba(255, 51, 102, 0.1));">
+            </div>
+        </div>
+    </section>
+
+    <!-- Showreel Section -->
+    <section class="showreel" id="showreel">
+        <div class="container">
+            <div class="section-header">
+                <h2>MY SHOWREEL</h2>
+                <p>Watch a collection of my latest editing and motion graphics work.</p>
+            </div>
+            <div class="video-player-container">
+                <div class="video-player">
+                    <video width="100%" height="100%" controls poster="akki.png" style="display: block; background: #000;">
+                        <source src="my-introduction.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="video-controls">
+                        <div class="progress-bar"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>SERVICES</h2>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" style="animation-delay: 0s">
+                    <div class="service-icon">🎬</div>
+                    <h3>Video Editing</h3>
+                    <p>Professional editing with pacing, transitions, sound design and storytelling.</p>
+                </div>
+                <div class="service-card" style="animation-delay: 0.1s">
+                    <div class="service-icon">✨</div>
+                    <h3>Motion Graphics</h3>
+                    <p>Custom animated graphics, typography, transitions and visual effects.</p>
+                </div>
+                <div class="service-card" style="animation-delay: 0.2s">
+                    <div class="service-icon">📱</div>
+                    <h3>Social Media Videos</h3>
+                    <p>High-retention Reels, Shorts and social media content.</p>
+                </div>
+                <div class="service-card" style="animation-delay: 0.3s">
+                    <div class="service-icon">🎮</div>
+                    <h3>Gaming Videos</h3>
+                    <p>Fast-paced gaming edits, effects, memes and cinematic moments.</p>
+                </div>
+                <div class="service-card" style="animation-delay: 0.4s">
+                    <div class="service-icon">🏫</div>
+                    <h3>Promotional Videos</h3>
+                    <p>Professional promotional videos for schools, businesses and organizations.</p>
+                </div>
+                <div class="service-card" style="animation-delay: 0.5s">
+                    <div class="service-icon">🖼️</div>
+                    <h3>Thumbnail Design</h3>
+                    <p>Eye-catching thumbnails designed to improve clicks and presentation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2>PORTFOLIO</h2>
+            </div>
+
+            <!-- Filter Buttons -->
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">ALL</button>
+                <button class="filter-btn" data-filter="editing">VIDEO EDITING</button>
+                <button class="filter-btn" data-filter="motion">MOTION GRAPHICS</button>
+                <button class="filter-btn" data-filter="social">SOCIAL MEDIA</button>
+                <button class="filter-btn" data-filter="gaming">GAMING</button>
+                <button class="filter-btn" data-filter="promo">PROMOTIONAL</button>
+            </div>
+
+            <!-- Portfolio Grid -->
+            <div class="portfolio-grid">
+                <!-- Project 1 -->
+                <div class="portfolio-item" data-category="editing">
+                    <div class="portfolio-image">
+                        <video width="100%" height="100%" style="object-fit: cover;">
+                            <source src="my-introduction.mp4" type="video/mp4">
+                        </video>
+                        <div class="portfolio-overlay">
+                            <button class="play-btn">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M8 5v14l11-7z"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>My Introduction</h3>
+                        <p class="category">Personal</p>
+                        <p class="description">An engaging introduction video showcasing my work as a video editor and motion graphics creator.</p>
+                        <div class="tools">
+                            <span class="tool">Premiere Pro</span>
+                            <span class="tool">After Effects</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="portfolio-item" data-category="promo">
+                    <div class="portfolio-image">
+                        <video width="100%" height="100%" style="object-fit: cover;">
+                            <source src="ganpati-bappa-morya.mp4" type="video/mp4">
+                        </video>
+                        <div class="portfolio-overlay">
+                            <button class="play-btn">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M8 5v14l11-7z"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Ganpati Bappa Morya</h3>
+                        <p class="category">Promotional</p>
+                        <p class="description">Festive promotional video with dynamic editing and visual effects.</p>
+                        <div class="tools">
+                            <span class="tool">Premiere Pro</span>
+                            <span class="tool">After Effects</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="portfolio-item" data-category="editing">
+                    <div class="portfolio-image">
+                        <video width="100%" height="100%" style="object-fit: cover;">
+                            <source src="gift.mp4" type="video/mp4">
+                        </video>
+                        <div class="portfolio-overlay">
+                            <button class="play-btn">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M8 5v14l11-7z"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Gift</h3>
+                        <p class="category">Video Editing</p>
+                        <p class="description">Creative video production with smooth transitions and professional color grading.</p>
+                        <div class="tools">
+                            <span class="tool">Premiere Pro</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="portfolio-item" data-category="promo">
+                    <div class="portfolio-image">
+                        <video width="100%" height="100%" style="object-fit: cover;">
+                            <source src="indus-valley-civilization.mp4" type="video/mp4">
+                        </video>
+                        <div class="portfolio-overlay">
+                            <button class="play-btn">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M8 5v14l11-7z"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Indus Valley Civilization Activity</h3>
+                        <p class="category">Promotional</p>
+                        <p class="description">Educational promotional video for institutional content with engaging visuals.</p>
+                        <div class="tools">
+                            <span class="tool">Premiere Pro</span>
+                            <span class="tool">After Effects</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="portfolio-item" data-category="gaming">
+                    <div class="portfolio-image">
+                        <video width="100%" height="100%" style="object-fit: cover;">
+                            <source src="g8-skill.mp4" type="video/mp4">
+                        </video>
+                        <div class="portfolio-overlay">
+                            <button class="play-btn">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M8 5v14l11-7z"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>G8 Skill Showcase</h3>
+                        <p class="category">Gaming</p>
+                        <p class="description">Fast-paced gaming video with dynamic cuts and professional motion graphics.</p>
+                        <div class="tools">
+                            <span class="tool">Premiere Pro</span>
+                            <span class="tool">After Effects</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6 - Placeholder for future projects -->
+                <div class="portfolio-item" data-category="motion">
+                    <div class="portfolio-image">
+                        <div class="placeholder-image">
+                            <svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="400" height="300" fill="url(#grad6)"/>
+                                <line x1="100" y1="150" x2="300" y2="150" stroke="white" stroke-width="2" opacity="0.3"/>
+                                <circle cx="150" cy="150" r="25" fill="none" stroke="white" stroke-width="1" opacity="0.3"/>
+                                <circle cx="250" cy="150" r="25" fill="none" stroke="white" stroke-width="1" opacity="0.3"/>
+                                <defs>
+                                    <linearGradient id="grad6" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop offset="0%" style="stop-color:#00ffff;stop-opacity:0.2" />
+                                        <stop offset="100%" style="stop-color:#0088ff;stop-opacity:0.1" />
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <button class="play-btn">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M8 5v14l11-7z"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>More Projects Coming Soon</h3>
+                        <p class="category">Motion Graphics</p>
+                        <p class="description">Showcasing more of my latest motion graphics and creative work.</p>
+                        <div class="tools">
+                            <span class="tool">After Effects</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process" id="process">
+        <div class="container">
+            <div class="section-header">
+                <h2>MY PROCESS</h2>
+            </div>
+            <div class="process-steps">
+                <div class="process-step">
+                    <div class="step-number">01</div>
+                    <div class="step-title">DISCOVER</div>
+                    <div class="step-description">Understand the idea and requirements.</div>
+                </div>
+                <div class="step-connector"></div>
+                <div class="process-step">
+                    <div class="step-number">02</div>
+                    <div class="step-title">PLAN</div>
+                    <div class="step-description">Develop the visual direction and editing approach.</div>
+                </div>
+                <div class="step-connector"></div>
+                <div class="process-step">
+                    <div class="step-number">03</div>
+                    <div class="step-title">CREATE</div>
+                    <div class="step-description">Edit, animate and polish the project.</div>
+                </div>
+                <div class="step-connector"></div>
+                <div class="process-step">
+                    <div class="step-number">04</div>
+                    <div class="step-title">DELIVER</div>
+                    <div class="step-description">Deliver the final high-quality video.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Software Section -->
+    <section class="software">
+        <div class="container">
+            <div class="section-header">
+                <h2>TOOLS & SOFTWARE</h2>
+            </div>
+            <div class="software-grid">
+                <div class="software-item">
+                    <div class="software-name">Adobe After Effects</div>
+                </div>
+                <div class="software-item">
+                    <div class="software-name">Adobe Premiere Pro</div>
+                </div>
+                <div class="software-item">
+                    <div class="software-name">Filmora</div>
+                </div>
+                <div class="software-item">
+                    <div class="software-name">Photoshop</div>
+                </div>
+                <div class="software-item">
+                    <div class="software-name">Canva</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+        <div class="container">
+            <div class="about-content">
+                <h2>ABOUT ME</h2>
+                <p>I'm Aks Prasad, a passionate video editor and motion graphics creator dedicated to transforming creative ideas into stunning visual content. Known as "Gamer X Magician," I blend technical expertise with creative storytelling to produce high-quality videos that captivate audiences.</p>
+                <p>With experience in video editing, motion graphics, gaming content, and promotional videos, I help creators, gamers, businesses, and institutions bring their visions to life. Whether you need YouTube content, Instagram Reels, promotional videos, or educational material, I'm here to deliver professional-grade results that make your brand stand out.</p>
+                <p>My approach combines precision editing, dynamic motion graphics, and strategic storytelling to create videos that don't just look great—they perform. Let's create something worth watching together!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>TESTIMONIALS</h2>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"Testimonial placeholder. Add real testimonials from your clients here."</p>
+                    <div class="testimonial-author">
+                        <div class="author-name">Client Name</div>
+                        <div class="author-role">Company / Project</div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"Testimonial placeholder. Add real testimonials from your clients here."</p>
+                    <div class="testimonial-author">
+                        <div class="author-name">Client Name</div>
+                        <div class="author-role">Company / Project</div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"Testimonial placeholder. Add real testimonials from your clients here."</p>
+                    <div class="testimonial-author">
+                        <div class="author-name">Client Name</div>
+                        <div class="author-role">Company / Project</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2>PRICING</h2>
+            </div>
+            <div class="pricing-content">
+                <h3>Need a custom project?</h3>
+                <p>Tell me what you're creating and I'll provide a custom quote based on your requirements.</p>
+                <a href="#contact" class="btn btn-primary">Get a Quote</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-content">
+                <h2>
+                    <span class="line">LET'S CREATE SOMETHING</span>
+                    <span class="line">WORTH WATCHING.</span>
+                </h2>
+                <div class="contact-buttons">
+                    <a href="mailto:aksprasad2006@gmail.com" class="btn btn-primary">Contact Me</a>
+                    <a href="https://wa.me/919372573656" class="btn btn-secondary" target="_blank">WhatsApp Me</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/gamerxmagician/" target="_blank" class="social-icon" title="Instagram">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.266.069 1.646.069 4.85 0 3.204-.012 3.584-.07 4.85-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                        </svg>
+                    </a>
+                    <a href="https://www.youtube.com/@_gamerxmagician" target="_blank" class="social-icon" title="YouTube">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M19.615 3.175c-3.674-.576-11.156-.576-14.83 0-3.767.588-4.45 3.653-4.585 8.825.135 5.172.818 8.237 4.585 8.825 3.674.576 11.156.576 14.83 0 3.767-.588 4.45-3.653 4.585-8.825-.135-5.172-.818-8.237-4.585-8.825zm-10.615 12.825v-8l8 4-8 4z"/>
+                        </svg>
+                    </a>
+                    <a href="https://www.fiverr.com/s/gvD4xbX" target="_blank" class="social-icon" title="Fiverr">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M13.417 2.082c-.552 0-.996.381-.996.852 0 .471.444.853.996.853.551 0 .996-.382.996-.853 0-.471-.445-.852-.996-.852zm0 2.556c-1.103 0-1.992.908-1.992 2.028v10.135h2.071V8.081c0-.56.456-1.014 1.018-1.014s1.018.454 1.018 1.014v8.72h2.071V8.081c0-1.566-1.277-2.843-2.847-2.843h-.339zm7.087 0c-.551 0-.996.382-.996.853 0 .471.445.853.996.853.552 0 .996-.382.996-.853 0-.471-.444-.852-.996-.852zm0 2.556c-1.103 0-1.992.908-1.992 2.028v10.135h2.07V8.081c0-.56.456-1.014 1.019-1.014s1.018.454 1.018 1.014v8.72h2.07V8.081c0-1.566-1.276-2.843-2.846-2.843h-.339zM1.993 8.081c-1.656 0-3.068 1.436-3.068 3.21v7.926h2.071V11.4c0-.623.507-1.128 1.132-1.128s1.131.505 1.131 1.128v7.817h2.071V11.291c0-1.805-1.491-3.21-3.337-3.21zM5.994 12.974c-.551 0-.993.385-.993.861 0 .476.442.861.993.861.552 0 .994-.385.994-.861 0-.476-.442-.861-.994-.861z"/>
+                        </svg>
+                    </a>
+                    <a href="https://wa.me/919372573656" target="_blank" class="social-icon" title="WhatsApp">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.67-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.076 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421-7.403h-.004c-1.762 0-3.44.855-4.561 2.287-.735.922-1.156 1.999-1.156 3.192 0 1.194.42 2.271 1.155 3.192 1.121 1.432 2.8 2.287 4.561 2.287 1.752 0 3.429-.854 4.553-2.287.734-.921 1.156-1.998 1.156-3.192 0-1.194-.422-2.27-1.156-3.192-1.124-1.432-2.801-2.287-4.553-2.287M12 0C5.383 0 0 5.383 0 12s5.383 12 12 12 12-5.383 12-12S18.617 0 12 0"/>
+                        </svg>
+                    </a>
+                    <a href="mailto:aksprasad2006@gmail.com" class="social-icon" title="Email">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Aks Prasad. All rights reserved.</p>
+            <p>Gamer X Magician • Video Editing & Motion Graphics</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
